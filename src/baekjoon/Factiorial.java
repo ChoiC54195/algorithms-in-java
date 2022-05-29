@@ -15,6 +15,7 @@ public class Factiorial {
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
+		sc.close();
 		
 		System.out.println(factorial(n));
 	}
@@ -22,6 +23,7 @@ public class Factiorial {
 	public static int factorial(int n) {
 		int rs=0;
 		if(n==0) {
+			// 0! = 1이므로 조건을 넣어준다.
 			rs = 1;
 		}else {
 			rs = factorial(n-1)*n;

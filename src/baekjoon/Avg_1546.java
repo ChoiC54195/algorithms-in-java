@@ -23,7 +23,7 @@ public class Avg_1546 {
 		int n = sc.nextInt();
 
 		double[] scores = new double[n];
-		int sum = 0;
+		double sum = 0;
 		
 		for(int i = 0 ; i<scores.length;i++) {
 			scores[i] = sc.nextInt();
@@ -35,8 +35,8 @@ public class Avg_1546 {
 			scores[i] = scores[i]/scores[scores.length-1]*100;
 			sum +=scores[i];
 		}
-		
-		System.out.println(sum/scores.length);
+		double avg = sum/scores.length;
+		System.out.println(avg);
 	
 	}
 }

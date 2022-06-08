@@ -29,8 +29,8 @@ public class OX_8958 {
 		}
 		sc.close();		
 		for (int i = 0; i < score.length; i++) {		
-			int count = 0;
-			int sum = 0;
+			int count = 0; // O가 연속적이면 +1할 변수
+			int sum = 0; // 총점
 			
 			for (int j = 0; j < score[i].length(); j++) {
 

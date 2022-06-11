@@ -24,6 +24,7 @@ public class ArithmeticSequence_1065 {
 		int n = Integer.parseInt(br.readLine()); // ÀÚ¿¬¼ö N
 
 		System.out.println(NumCnt(n));
+		br.close();
 
 	}
 

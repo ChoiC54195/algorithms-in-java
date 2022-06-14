@@ -30,7 +30,7 @@ public class RepeatString_2675 {
 
             for(int j = 0 ; j<S.length(); j++){
                 for(int k = 0 ; k<R;k++){
-                    System.out.println(S.charAt(j));
+                    System.out.print(S.charAt(j));
                 }
             }
             System.out.println();
